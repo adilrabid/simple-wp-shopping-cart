@@ -95,7 +95,7 @@ class WPSC_Cart {
 
 		if ( $cart_cpt_id ) {
 			//Set the cookie with unique cart ID.
-			$cart_id           = uniqid();
+			$cart_id           = bin2hex(random_bytes(16));
 			$cookie_expiration = time() + ( 86400 * 30 ); // 30 days
 			setcookie( 'simple_cart_id', $cart_id, $cookie_expiration, '/' );
 
