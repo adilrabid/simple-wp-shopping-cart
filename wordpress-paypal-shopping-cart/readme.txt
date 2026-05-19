@@ -242,6 +242,7 @@ None
 
 = WIP =
 - Updated the language translation POT file.
+- Cart ID generating code update.
 
 = 5.2.9 =
 - Added more disable funding options in the settings menu of the PayPal PPCP checkout.
