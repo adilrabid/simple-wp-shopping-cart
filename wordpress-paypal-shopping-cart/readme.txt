@@ -5,7 +5,7 @@ Tags: cart, shopping cart, ecommerce, sell online, shop, stripe, e-commerce, wor
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 5.2.9
+Stable tag: 5.3.0
 License: GPLv2 or later
 
 Lightweight, user-friendly plugin to sell products/services on WordPress. Easily add a shopping cart and start accepting orders in minutes.
@@ -240,9 +240,9 @@ None
 
 == Changelog ==
 
-= WIP =
+= 5.3.0 =
 - Updated the language translation POT file.
-- Cart ID generating code update.
+- Updated the unique Cart ID generating code to use a more robust method.
 
 = 5.2.9 =
 - Added more disable funding options in the settings menu of the PayPal PPCP checkout.
